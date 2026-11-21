@@ -27,9 +27,9 @@ To collect employee details, validate inputs, and calculate gross and net salary
 9. **Stop** the program.
 
 ## Program
-def main():
-    name = input("Enter Employee Name: ").strip()
-    emp_id = input("Enter Employee ID: ").strip()
+    def main():
+        name = input("Enter Employee Name: ").strip()
+        emp_id = input("Enter Employee ID: ").strip()
 
     if not name or not emp_id:
         print("Error: Employee Name and Employee ID cannot be empty.")
